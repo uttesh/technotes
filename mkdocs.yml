@@ -7,7 +7,7 @@ google_analytics:
       - 'UA-37592456-1'
       - 'auto'
 nav:
-    - Home:
+    - Home:  
       - Machine Learning:
           - machine_learning/introduction.md
           - machine_learning/basics.md
