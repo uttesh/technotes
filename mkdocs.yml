@@ -1,0 +1,75 @@
+site_name: Tech Notes
+site_description: Blogs to learn modern technologies and Todos.
+site_author: Uttesh Kumar T.H.
+copyright: Copyright &copy; 2016 - 2020 <a href="http://uttesh.com">Uttesh Kumar</a>
+
+google_analytics:
+      - 'UA-37592456-1'
+      - 'auto'
+nav:
+    - Home:
+      - Machine Learning:
+          - machine_learning/introduction.md
+          - machine_learning/basics.md
+
+
+
+theme:
+    name: material
+    #logo: assets/logo.png
+    favicon: assets/favicon.ico
+    language: en
+    font: true
+    # remove to be GDPR conform
+    #    font:
+    #        text: Roboto
+    #        code: Roboto Mono
+    logo:
+      icon: 'laptop'
+    feature:
+        tabs: true
+
+repo_name: 'uttesh/technotes.github.io'
+repo_url: 'https://github.com/uttesh/technotes.gitlab.io'
+edit_uri: ''
+
+extra:
+    manifest: 'manifest.webmanifest'
+    social:
+        - type: github
+          link: https://github.com/uttesh
+        - type: home
+          link: http://uttesh.com
+        - type: envelope
+          link: mailto:uttesh@gmail.com
+
+plugins:
+    - search
+
+
+markdown_extensions:
+    - admonition
+    - extra
+    - toc:
+          permalink: true
+    - pymdownx.caret
+    - pymdownx.tilde
+    - pymdownx.mark
+    - admonition
+    - pymdownx.details
+    - codehilite:
+          guess_lang: false
+          linenums: false
+    - pymdownx.inlinehilite
+    - pymdownx.superfences
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.keys
+    - pymdownx.smartsymbols
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - markdown_blockdiag:
+          format: svg
+    - markdown_include.include
