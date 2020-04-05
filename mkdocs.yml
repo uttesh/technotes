@@ -7,10 +7,11 @@ google_analytics:
       - 'UA-37592456-1'
       - 'auto'
 nav:
-    - Home:  
-      - Machine Learning:
+    - Home: 'index.md'
+    - Machine Learning:
           - machine_learning/introduction.md
           - machine_learning/basics.md
+          - machine_learning/tools_and_libraries.md
 
 
 
